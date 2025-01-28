@@ -1,0 +1,27 @@
+# Bytecode-Dateien
+__pycache__/
+*.py[cod]
+
+# Virtuelle Umgebung
+venv/
+.env/
+.venv/
+
+# PyCharm Dateien
+.idea/
+
+# Logs und temporäre Dateien
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Build- und Distribution-Dateien
+build/
+dist/
+*.egg-info/
+
+# Konfigurationsdateien
+.env
+.DS_Store
+.vscode/
