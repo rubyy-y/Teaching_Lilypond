@@ -19,6 +19,7 @@ venv/
 # Build- und Distribution-Dateien
 build/
 dist/
+etc/
 *.egg-info/
 
 # Konfigurationsdateien
