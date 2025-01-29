@@ -214,7 +214,7 @@ def create_folders():
 
 
 def create_cert_batch(ip):
-    container_path = "/home/coder/lily/runAsAdmin/"
+    container_path = "/home/coder/lily/_runAsAdmin/"
     bat_file = "remove_cert.bat"
     with open(bat_file, "w") as file:
         file.write(f"""@echo off
@@ -335,7 +335,7 @@ def run_lilypond():
         message.pack(pady=10)
 
         docker_thread = threading.Thread(
-            target=run_docker_tasks_in_background, args=(path, students, ports, ip, root), daemon=False
+            target=run_docker_tasks_in_background, args=(path, students, ports, ip, root), daemon=True
         )
         docker_thread.start()
 

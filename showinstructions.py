@@ -58,7 +58,7 @@ def show():
         f"Available Student Ports: {student_ports}\n"
         "\nEach student must use a different port number. "
         "Consider writing down which student has which port."
-        "To view on your own machine, you can open a browser and enter \"localhost:8080\"."
+        "\nTo view on your own machine, you can open a browser and enter \"YOUR_NOTEBOOK_IP:8080\"."
         
         "\n\nImportant: At first start, certificate \"install_cert.bat\" inside \"_runAsAdmin\" must to be downloaded and executed as Admin for each machine.\n"
         "\nIn case the certificate has newly been installed, browser needs to be restarted. After the application is not needed anymore, the certificates can be removed by executing \"remove_cert.bat\"."
